@@ -1,0 +1,39 @@
+{
+  "name": "get-logical-client-rect",
+  "version": "1.0.0",
+  "description": "Return the size and position of an element relative to the viewport and the flow of content.",
+  "author": "Jonathan Neal <jonathantneal@hotmail.com>",
+  "license": "CC0-1.0",
+  "repository": "jsxtools/get-logical-client-rect",
+  "homepage": "https://github.com/jsxtools/get-logical-client-rect#readme",
+  "bugs": "https://github.com/jsxtools/get-logical-client-rect/issues",
+  "main": "index.js",
+  "files": [
+    "index.cjs",
+    "index.mjs",
+    "index.iife.js"
+  ],
+  "scripts": {
+    "test": "eslint src/**.js"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "^6.8.0"
+  },
+  "eslintConfig": {
+    "env": {
+      "browser": true,
+      "es6": true,
+      "node": true
+    },
+    "extends": [
+      "eslint:recommended"
+    ],
+    "parserOptions": {
+      "sourceType": "module"
+    }
+  }
+}
